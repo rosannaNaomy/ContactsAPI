@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/detail_name_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:fontFamily="@font/amaranth"
+        android:text="Maria Garcia"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/detail_phone_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="@font/amaranth"
+        android:textColor="@android:color/holo_blue_light"
+        android:text="123-445-4333"/>
+
+    <TextView
+        android:id="@+id/detail_email_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="@font/amaranth"
+        android:textColor="@android:color/holo_blue_light"
+        android:text="email@email.com"/>
+
+    <TextView
+        android:id="@+id/detail_adress_textview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/darker_gray"
+        android:fontFamily="@font/amaranth"
+        android:text="123 3rd street \n new york, ny 11001" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
